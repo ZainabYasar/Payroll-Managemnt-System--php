@@ -1,0 +1,89 @@
+SAMPLE CODE:
+
+Welcome.php
+<?php
+session_start();
+include "header0.php";
+include "header.php";
+?>
+<!doctype html>
+<html>
+<head>
+<style>
+.button {
+background
+
+-color: #000000;
+
+color: #FFFFFF;
+padding: 8px;
+border
+-radius: 10px;
+-moz
+-border
+-radius: 10px;
+
+-webkit
+-border
+-radius: 10px;
+
+margin:10px }
+.small
+-btn {
+width: 50px;
+height: 25px; }
+.medium
+-btn {
+width: 70px;
+height: 30px; }
+.big
+-btn {
+width: 250px;
+height: 40px; }
+</style>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<body class="bg">
+
+30
+
+<center>
+<br>
+<form action="insertemp.php" align= "center">
+<!--<div class="button big-btn">This is a big button</div>-->
+<button type="submit" class="button big-btn" value="insertemp.php" name="add"
+><font size="3"><strong>Add New
+Employee</strong></font></button>
+</form>
+<form action="insertdep.php">
+<button type="submit" class="button big-btn" value="insertdep.php" name="add"
+><font size="3"><strong>Add New
+Department</strong></font></button>
+</form>
+<form action="insertgrade.php">
+<button type="submit" class="button big-btn" value="insertgrade.php"
+name="add" ><font size="3"><strong>Add New
+Grade</strong></font></button>
+</form>
+<form action="insertgradedetails.php">
+<button type="submit" class="button big-btn" value="insertgradedetails.php"
+name="add" ><font size="3"><strong>Employee Grade
+Details</strong></font></button>
+</form>
+<form action="insertsalary.php">
+<button type="submit" class="button big-btn" value="insertsalary.php"
+name="add" ><font size="3"><strong>Prepare Monthly
+Salary</strong></font></button>
+</form>
+<form action="report.php">
+<button type="submit" class="button big-btn" value="#" name="add" ><font
+size="3"><strong>Generate
+Report</strong></font></button>
+</form>
+</center>
+
+31
+
+</body>
+</html>
